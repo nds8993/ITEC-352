@@ -1,0 +1,40 @@
+Week 4 Assignment
+Name: Nicholas Spencer
+Date: September 13, 2026
+
+PROGRAM TITLE:
+Sneaker Class Program
+
+PROGRAM DESCRIPTION:
+This program demonstrates object-oriented programming by creating a Sneaker class.
+The class name begins with the letter S because my last name is Spencer.
+
+FILES:
+1. objects.py
+   - Contains the Sneaker class.
+   - The class has three attributes:
+     brand
+     model
+     price
+   - The class has two methods:
+     apply_discount()
+     display_info()
+   - The constructor (__init__) is used to assign values to each object.
+
+2. main.py
+   - Imports the Sneaker class from objects.py.
+   - Creates two Sneaker objects.
+   - Displays information about each sneaker.
+   - Applies a discount to one sneaker and displays the updated price.
+
+3. Sneaker_UML.png
+   - Shows the UML class diagram for the Sneaker class.
+
+OBJECT-ORIENTED CONCEPTS:
+Instantiation is demonstrated when sneaker1 and sneaker2 are created from the Sneaker class.
+Encapsulation is demonstrated because the brand, model, and price data are grouped together
+with the methods that operate on that data inside the Sneaker class.
+
+HOW TO RUN:
+Place objects.py and main.py in the same folder.
+Run main.py with Python.
